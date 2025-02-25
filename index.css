@@ -26,10 +26,22 @@ header nav {
     height: 2rem;
 }
 
-main{
+.search-container input {
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position: 97%;
+    padding-right: 10%;
+}
+
+
+.input-icon {
+    margin-left: -1.5rem;
+}
+
+main {
     aspect-ratio: 5/4;
     border: 1px solid black;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
@@ -58,3 +70,10 @@ main .description {
     width: 60%;
 }
 
+.btn-play {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 0.5rem 2rem;
+    border-radius: 0.25rem;
+}
