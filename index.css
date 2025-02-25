@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    gap: 0.5rem;
+
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.search-container img {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+main{
+    aspect-ratio: 5/4;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+main .movie-rating {
+    display:flex;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+main .rating i {
+    color: red;
+    
+}
+
+main .age-rating {
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    padding: 0.2rem;
+}
+
+main .description {
+    width: 60%;
+}
+
